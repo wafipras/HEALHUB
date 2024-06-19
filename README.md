@@ -46,7 +46,7 @@ Path /predictions
 
 Input
 ```bash
- {
+  {
     "inputData": [
         1, 0, 1, 0, 0, 0, 0, 1, 0, 1,
         0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
@@ -55,21 +55,23 @@ Input
         0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-    ]
-}
+    ],
+     "email": "fourname@example.com"
+  }
 ```
 Output
 ```bash
- {
+  {
     "status": "success",
     "message": "Model is predicted successfully",
     "data": {
-        "id": "3e66798d-19a7-443a-a701-eb7cae29b458",
+        "id": "04bca469-78f5-407c-8220-dea35c298acc",
         "classResult": 15,
         "label": "Paru-Paru Basah",
-        "createdAt": "2024-06-13T12:23:50.127Z"
+        "createdAt": "2024-06-19T05:02:04.041Z",
+        "email": "fourname@example.com"
     }
-}
+  }
 ```
 4. Method GET
 Path /predict/histories
